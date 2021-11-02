@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0; padding:0;}
+        li{list-style:none;}
+        a:link, a:visited{text-decoration:none; color:#000;}
+
+        .container{width:100%;}
+        .container .title{text-align:center; text-transform:uppercase; margin:10px 0;}
+        
+        .content{width:90%; margin:0 auto;}
+        .list{width:100%; display:flex; margin:10px 0; }
+        .list_cont{width:290px; height:415px; margin-right:20px; box-shadow: 0 0 5px rgb(62 105 132 / 40%);}
+        .list_cont .imgArea>img{position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);}
+        .imgArea{height:300px; background-color:#efefef; position:relative; }
+        .imgArea img{width:100%;}
+        .textArea{padding:15px; font-size:13px;}
+        .textArea p{margin-top:5px;}
+        .textArea .text{font-size:18px;}
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">portfolio</h2>
+        <div class="content">
+            <ul class="list">
+                <li class="list_cont">                
+                        <div class="imgArea">
+                            <img src="css/GENIE.png" alt="GENIE 이미지"/>
+                        </div>
+                        <div class="textArea">
+                            <p class="text">GENIE</p>
+                            <p class="skill">웹 퍼블리싱</p>
+                            <p class="link">
+                                <a href="https://geniesystem.com.au/genie/index.do" title="GENIE">https://geniesystem.com.au/genie/index.do</a>
+                            </p>
+                        </div>                  
+                </li>
+                <li class="list_cont">
+                    <div class="imgArea">
+                        <img src="css/bbangga.png" alt="미니방가 이미지"/>
+                    </div>
+                    <div class="textArea">
+                        <p class="text">미니방가</p>
+                        <p class="skill">웹 퍼블리싱</p>
+                        <p class="link">
+                            <a href="https://bo-dev.bbangga.com/" title="미니방가">https://geniesystem.com.au/genie/index.do</a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
